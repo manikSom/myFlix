@@ -16,3 +16,19 @@ Timestamp: Sat Jan 28 2023 02:29:44 GMT+0100 (Central European Standard Time)
 URL: /favicon.ico
 Timestamp: Sat Jan 28 2023 02:29:44 GMT+0100 (Central European Standard Time)
 
+::1 - - [01/Feb/2023:16:15:08 +0000] "GET / HTTP/1.1" 200 478
+::1 - - [01/Feb/2023:16:15:08 +0000] "GET /css/styles.css HTTP/1.1" 404 153
+::1 - - [01/Feb/2023:16:15:08 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [01/Feb/2023:16:15:16 +0000] "GET /movies HTTP/1.1" 200 466
+::1 - - [01/Feb/2023:16:15:54 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [01/Feb/2023:16:15:54 +0000] "GET /css/styles.css HTTP/1.1" 404 153
+::1 - - [01/Feb/2023:16:16:32 +0000] "GET /documentation.html HTTP/1.1" 200 762
+::1 - - [01/Feb/2023:16:16:32 +0000] "GET /css/styles.css HTTP/1.1" 404 153
+::1 - - [01/Feb/2023:16:19:33 +0000] "GET / HTTP/1.1" 200 28
+::1 - - [01/Feb/2023:16:19:40 +0000] "GET /movies HTTP/1.1" 304 -
+::1 - - [01/Feb/2023:16:19:47 +0000] "GET /documentation.html HTTP/1.1" 304 -
+::1 - - [01/Feb/2023:16:19:47 +0000] "GET /css/styles.css HTTP/1.1" 404 153
+::1 - - [01/Feb/2023:16:25:41 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [01/Feb/2023:16:25:45 +0000] "GET /movies HTTP/1.1" 200 437
+::1 - - [01/Feb/2023:16:25:56 +0000] "GET /documentation.html HTTP/1.1" 304 -
+::1 - - [01/Feb/2023:16:25:56 +0000] "GET /css/styles.css HTTP/1.1" 404 153
