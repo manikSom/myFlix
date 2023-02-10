@@ -11,6 +11,7 @@ const Models = require('./models.js');
 const Movies = Models.Movie;
 const Users = Models.User;
 
+mongoose.set('strictQuery',false);
 //Integrating Mongoose with RESTAPI cfDB is the name od Database with movies and users
 mongoose.connect('mongodb://localhost:27017/cfDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
