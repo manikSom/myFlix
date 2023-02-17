@@ -98,3 +98,12 @@ Timestamp: Sat Jan 28 2023 02:29:44 GMT+0100 (Central European Standard Time)
 ::1 - - [13/Feb/2023:17:19:59 +0000] "DELETE /users HTTP/1.1" 404 147
 ::1 - - [13/Feb/2023:17:20:03 +0000] "GET /users HTTP/1.1" 201 1094
 ::1 - - [13/Feb/2023:17:20:30 +0000] "DELETE /users/Foxtrot%20Bravo HTTP/1.1" 200 26
+127.0.0.1 - - [17/Feb/2023:15:47:34 +0000] "DELETE /users/ HTTP/1.1" 404 148
+127.0.0.1 - - [17/Feb/2023:15:47:45 +0000] "GET /users/ HTTP/1.1" 401 -
+127.0.0.1 - - [17/Feb/2023:15:47:49 +0000] "GET /users HTTP/1.1" 401 -
+127.0.0.1 - - [17/Feb/2023:15:48:12 +0000] "GET /index.html HTTP/1.1" 404 149
+127.0.0.1 - - [17/Feb/2023:15:48:25 +0000] "GET /documentation.html HTTP/1.1" 200 4707
+127.0.0.1 - - [17/Feb/2023:15:48:25 +0000] "GET /css/styles.css HTTP/1.1" 404 153
+127.0.0.1 - - [17/Feb/2023:15:48:25 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+127.0.0.1 - - [17/Feb/2023:15:50:41 +0000] "GET /index.html HTTP/1.1" 404 149
+127.0.0.1 - - [17/Feb/2023:15:59:53 +0000] "POST /users/ HTTP/1.1" 201 225
